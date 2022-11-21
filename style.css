@@ -1,0 +1,33 @@
+#gameField{
+  text-align: center;
+}
+body{
+  background-color: green;
+}
+
+#fox, #cat, #dog, #hamster, #squirrel{
+  width: 200px;
+}
+
+.changeDisplay{
+  display: inline;
+}
+.eatFood{
+  width: 140px;
+  position: relative;
+  left: 290%;
+}
+.food{
+  width: 200px;
+}
+
+
+.pressed{
+  box-shadow: 0 0 30px white;
+  background-color: grey;
+}
+
+.game-over{
+  background-color: red;
+  opacity: 0.8;
+}
